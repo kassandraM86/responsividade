@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+.card .name , .card .e-mail,.tel{
+    flex: 1 0 10rem;
+    padding: 1em 1em;
+}
+.card, .submit , .tel{
+    flex: 1 0 2rem;
+}
+.submit{
+    background-color: orange;
+}
